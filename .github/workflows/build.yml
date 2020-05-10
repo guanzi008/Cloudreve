@@ -60,6 +60,7 @@ jobs:
         chmod +x ./build.sh
         ./build.sh -r b
 
+
     - name: Upload binary files
       uses: actions/upload-artifact@v1
       with:
